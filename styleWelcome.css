@@ -1,0 +1,78 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+img {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+#start {
+    display: block;
+    padding: 10px;
+    color: black;
+    background-color: blanchedalmond;
+    position: absolute;
+    top: 50vh;
+    left: 30vw;
+    z-index: 0;
+    text-align: center;
+}
+
+#start:hover {
+    color: white;
+    background-color: #d2c961;
+}
+
+#start:active {
+    background-color: #635b06;
+}
+
+.cube {
+    font-size: 1rem;
+    font-family: 'Minecraft', sans-serif;
+    color: blanchedalmond;
+    text-decoration: none;
+    width: 20vw;
+    text-align: justify;
+}
+
+
+p.cube {
+    display: block;
+    width: 35vw;
+    position: absolute;
+    top: 58vh;
+    left: 30vw;
+    line-height: 1.5rem;
+    padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+
+
+    p.cube {
+        overflow: auto;
+        width: 35vw;
+        height: 35vh;
+        color: blanchedalmond;
+        position: absolute;
+        top: 60vh;
+    }
+
+    #start {
+        width: 35vw;
+    }
+
+
+}
